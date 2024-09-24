@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 To run the script, use the following command:
 ```sh
-python group_id_compare.py <base_file> <compare_file> <type> <property_names>
+python group_id_compare.py -base_file <base_file_path> -compare_file <compare_file_path> -type <csv/txt> -property <property_name(s)>
 ```
 # Generate TXT Patterns
 ``./Tests/txt/generate_txt_pattern.py `` is used to generate a txt file in the following pattern:
