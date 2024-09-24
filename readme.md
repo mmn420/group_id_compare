@@ -1,9 +1,10 @@
 # Group ID Compare
 
-This project provides a script to compare groups of IDs from CSV or TXT files and generate a report on the comparison.
-
 ## Installation
-
+create virtual environment
+```
+python -m venv .venv
+```
 Install the required dependencies:
 ```sh
 pip install -r requirements.txt
